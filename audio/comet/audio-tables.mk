@@ -67,8 +67,8 @@ PRODUCT_PACKAGES += \
     compens_spk_r_1.conf \
     compens_spk_r_2.conf
 
-# userdebug specific
-PRODUCT_PACKAGES_DEBUG += \
+# eng specific
+PRODUCT_PACKAGES_ENG += \
     BLUETOOTH.mods \
     HANDSFREE.mods \
     HANDSET.mods \

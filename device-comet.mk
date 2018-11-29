@@ -37,7 +37,7 @@ TARGET_RECOVERY_DEFAULT_ROTATION := ROTATION_RIGHT
 
 LOCAL_PATH := device/google/comet
 
-ifneq (,$(filter userdebug eng, $(TARGET_BUILD_VARIANT)))
+ifneq (,$(filter eng, $(TARGET_BUILD_VARIANT)))
     USE_UWBFIELDTESTQM := true
 endif
 ifeq ($(filter factory_comet, $(TARGET_PRODUCT)),)
@@ -174,7 +174,7 @@ PRODUCT_COPY_FILES += \
 	$(TARGET_VENDOR_THERMAL_CONFIG_PATH)/vt_estimation_model_comet.tflite:$(TARGET_COPY_OUT_VENDOR)/etc/vt_estimation_model.tflite \
 	$(TARGET_VENDOR_THERMAL_CONFIG_PATH)/vt_speaker_estimation_model_comet.tflite:$(TARGET_COPY_OUT_VENDOR)/etc/vt_speaker_estimation_model.tflite \
 
-ifneq (,$(filter userdebug eng, $(TARGET_BUILD_VARIANT)))
+ifneq (,$(filter eng, $(TARGET_BUILD_VARIANT)))
 	PRODUCT_COPY_FILES += \
 		$(TARGET_VENDOR_THERMAL_CONFIG_PATH)/thermal_info_config_comet_wingboard.json:$(TARGET_COPY_OUT_VENDOR)/etc/thermal_info_config_wingboard.json
 endif
@@ -208,15 +208,15 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.gms.dck.se_capability=1
 
 # Bluetooth hci_inject test tool
-PRODUCT_PACKAGES_DEBUG += \
+PRODUCT_PACKAGES_ENG += \
     hci_inject
 
 # Bluetooth SAR test tool
-PRODUCT_PACKAGES_DEBUG += \
+PRODUCT_PACKAGES_ENG += \
     sar_test
 
 # Bluetooth EWP test tool
-PRODUCT_PACKAGES_DEBUG += \
+PRODUCT_PACKAGES_ENG += \
     ewp_tool
 
 # Bluetotoh Auto On feature
@@ -468,7 +468,7 @@ PRODUCT_COPY_FILES += \
 SUPPORT_RIL_DOMAIN_SELECTION := true
 
 # ETM
-ifneq (,$(filter userdebug eng, $(TARGET_BUILD_VARIANT)))
+ifneq (,$(filter eng, $(TARGET_BUILD_VARIANT)))
 $(call inherit-product-if-exists, device/google/common/etm/device-userdebug-modules.mk)
 endif
 
