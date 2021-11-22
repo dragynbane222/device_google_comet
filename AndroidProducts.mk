@@ -16,7 +16,8 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/aosp_comet.mk \
-    $(LOCAL_DIR)/factory_comet.mk
+    $(LOCAL_DIR)/factory_comet.mk \
+    $(LOCAL_DIR)/lineage_comet.mk
 
 COMMON_LUNCH_CHOICES := \
     aosp_comet-trunk_staging-userdebug
