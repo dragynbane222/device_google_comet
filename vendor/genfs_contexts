@@ -1,8 +1,3 @@
-# Haptics
-genfscon sysfs /devices/platform/10c80000.hsi2c/i2c-4/4-0043            u:object_r:sysfs_vibrator:s0
-genfscon sysfs /devices/platform/10c80000.hsi2c/i2c-5/5-0043            u:object_r:sysfs_vibrator:s0
-genfscon sysfs /devices/platform/10c80000.hsi2c/i2c-6/6-0043            u:object_r:sysfs_vibrator:s0
-
 # Display
 genfscon sysfs /devices/platform/19450000.drmdsim/19450000.drmdsim.0/gamma                                u:object_r:sysfs_display:s0
 genfscon sysfs /devices/platform/19450000.drmdsim/19450000.drmdsim.0/min_vrefresh                         u:object_r:sysfs_display:s0
