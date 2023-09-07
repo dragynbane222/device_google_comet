@@ -1,5 +1,5 @@
 # FPC AIDL HAL
-/vendor/bin/hw/android\.hardware\.biometrics\.fingerprint-service\.fpc42    u:object_r:hal_fingerprint_capacitance_exec:s0
+/vendor/bin/hw/android\.hardware\.biometrics\.fingerprint-service\.fpc42_fw49    u:object_r:hal_fingerprint_capacitance_exec:s0
 
 # FPC HIDL HAL
 /vendor/bin/hw/android\.hardware\.biometrics\.fingerprint@2\.1-service\.fpc u:object_r:fingerprint_factory_service_exec:s0
