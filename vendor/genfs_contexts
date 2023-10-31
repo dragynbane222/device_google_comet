@@ -19,10 +19,12 @@ genfscon sysfs /devices/platform/19450000.drmdsim/19450000.drmdsim.0/error_count
 # Battery
 genfscon sysfs /devices/platform/10ca0000.hsi2c/i2c-10/10-0036/power_supply                               u:object_r:sysfs_batteryinfo:s0
 genfscon sysfs /devices/platform/10ca0000.hsi2c/i2c-10/10-0061/power_supply                               u:object_r:sysfs_batteryinfo:s0
+genfscon sysfs /devices/platform/google,dual_batt_gauge/power_supply                                      u:object_r:sysfs_batteryinfo:s0
 
 # wake up nodes
 genfscon sysfs /devices/platform/10ca0000.hsi2c/i2c-10/10-0061/power/wakeup                               u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/10ca0000.hsi2c/i2c-10/10-0061/power_supply/wireless/power/wakeup         u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/google,dual_batt_gauge/power_supply/dualbatt/wakeup                      u:object_r:sysfs_wakeup:s0
 
 # WLC
 genfscon sysfs /devices/platform/10ca0000.hsi2c/i2c-10/10-0061                                            u:object_r:sysfs_wlc:s0
