@@ -1,2 +1,3 @@
 binder_call(hal_gnss_default, gnssd);
 
+allow hal_gnss_default gnssd:unix_stream_socket connectto;
