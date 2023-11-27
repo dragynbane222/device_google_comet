@@ -3,6 +3,26 @@
 /dev/gnss_boot                 u:object_r:vendor_gnss_device:s0
 /dev/gnss_dump                 u:object_r:vendor_gnss_device:s0
 
+# Devices
+/dev/lwis-act-cornerfolk                                                    u:object_r:lwis_device:s0
+/dev/lwis-act-jotnar                                                        u:object_r:lwis_device:s0
+/dev/lwis-act-nessie                                                        u:object_r:lwis_device:s0
+/dev/lwis-eeprom-jotnar                                                     u:object_r:lwis_device:s0
+/dev/lwis-eeprom-nessie                                                     u:object_r:lwis_device:s0
+/dev/lwis-eeprom-smaug-imentet                                              u:object_r:lwis_device:s0
+/dev/lwis-eeprom-smaug-svarog                                               u:object_r:lwis_device:s0
+/dev/lwis-eeprom-smaug-svarog-outer                                         u:object_r:lwis_device:s0
+/dev/lwis-flash-lm3644                                                      u:object_r:lwis_device:s0
+/dev/lwis-ois-jotnar                                                        u:object_r:lwis_device:s0
+/dev/lwis-ois-nessie                                                        u:object_r:lwis_device:s0
+/dev/lwis-sensor-dokkaebi-tele                                              u:object_r:lwis_device:s0
+/dev/lwis-sensor-imentet                                                    u:object_r:lwis_device:s0
+/dev/lwis-sensor-oksoko                                                     u:object_r:lwis_device:s0
+/dev/lwis-sensor-svarog                                                     u:object_r:lwis_device:s0
+/dev/lwis-sensor-svarog-outer                                               u:object_r:lwis_device:s0
+/dev/lwis-tof-tarasque                                                      u:object_r:lwis_device:s0
+
+# Services
 /vendor/bin/hw/gnssd            u:object_r:gnssd_exec:s0
 /vendor/bin/hw/sctd             u:object_r:sctd_exec:s0
 /vendor/bin/hw/swcnd            u:object_r:swcnd_exec:s0
