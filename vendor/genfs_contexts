@@ -29,3 +29,4 @@ genfscon sysfs /devices/platform/google,dual_batt_gauge/power_supply/dualbatt/wa
 
 # WLC
 genfscon sysfs /devices/platform/10ca0000.hsi2c/i2c-10/10-0061                                            u:object_r:sysfs_wlc:s0
+genfscon sysfs /devices/platform/odm/odm:fp_fpc1020     u:object_r:sysfs_fingerprint:s0
