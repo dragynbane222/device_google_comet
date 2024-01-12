@@ -10,6 +10,9 @@ allow hal_fingerprint_capacitance tee_device:chr_file rw_file_perms;
 allow hal_fingerprint_capacitance sysfs_fingerprint:dir r_dir_perms;
 allow hal_fingerprint_capacitance sysfs_fingerprint:file rw_file_perms;
 
+# allow fingerprint to access wakeup node
+allow hal_fingerprint_capacitance sysfs_wakeup:file rw_file_perms;
+
 # allow fingerprint to access power hal
 hal_client_domain(hal_fingerprint_capacitance, hal_power);
 
