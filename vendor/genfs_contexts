@@ -12,6 +12,7 @@ genfscon sysfs /devices/platform/19450000.drmdsim/19450000.drmdsim.0/panel_extin
 genfscon sysfs /devices/platform/19450000.drmdsim/19450000.drmdsim.0/panel_name                           u:object_r:sysfs_display:s0
 genfscon sysfs /devices/platform/19450000.drmdsim/19450000.drmdsim.0/serial_number                        u:object_r:sysfs_display:s0
 genfscon sysfs /devices/platform/19450000.drmdsim/19450000.drmdsim.0/refresh_rate                         u:object_r:sysfs_display:s0
+genfscon sysfs /devices/platform/19450000.drmdsim/19450000.drmdsim.0/refresh_ctrl                         u:object_r:sysfs_display:s0
 genfscon sysfs /devices/platform/19450000.drmdsim/19450000.drmdsim.0/time_in_state                        u:object_r:sysfs_display:s0
 genfscon sysfs /devices/platform/19450000.drmdsim/19450000.drmdsim.0/panel_model                          u:object_r:sysfs_display:s0
 genfscon sysfs /devices/platform/19450000.drmdsim/19450000.drmdsim.0/backlight/panel0-backlight/als_table u:object_r:sysfs_write_leds:s0
