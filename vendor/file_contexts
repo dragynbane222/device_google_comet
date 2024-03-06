@@ -24,3 +24,6 @@
 
 # FPC HIDL HAL
 /vendor/bin/hw/android\.hardware\.biometrics\.fingerprint@2\.1-service\.fpc u:object_r:fingerprint_factory_service_exec:s0
+
+# Touch
+/dev/touch_offload_outer                                                    u:object_r:touch_offload_device:s0
