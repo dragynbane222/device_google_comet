@@ -32,10 +32,6 @@ genfscon sysfs /devices/platform/10ca0000.hsi2c/i2c-10/10-0036/power/wakeup     
 genfscon sysfs /devices/platform/10ca0000.hsi2c/i2c-10/10-0036/power_supply/maxfg_secondary/power/wakeup  u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/10ca0000.hsi2c/i2c-10/10-0036/power_supply/maxfg_secondary/wakeup        u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/10ca0000.hsi2c/i2c-10/10-0036/wakeup                                     u:object_r:sysfs_wakeup:s0
-genfscon sysfs /devices/platform/10ca0000.hsi2c/i2c-10/10-0061/power/wakeup                               u:object_r:sysfs_wakeup:s0
-genfscon sysfs /devices/platform/10ca0000.hsi2c/i2c-10/10-0061/power_supply/wireless/power/wakeup         u:object_r:sysfs_wakeup:s0
-genfscon sysfs /devices/platform/10ca0000.hsi2c/i2c-10/10-0061/power_supply/wireless/wakeup               u:object_r:sysfs_wakeup:s0
-genfscon sysfs /devices/platform/10ca0000.hsi2c/i2c-10/10-0061/wakeup                                     u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/111c0000.spi/spi_master/spi19/spi19.0/synaptics_tcm.0/power/wakeup       u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/111c0000.spi/spi_master/spi19/spi19.0/synaptics_tcm.0/wakeup             u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/google,dual_batt_gauge/power_supply/dualbatt/power/wakeup                u:object_r:sysfs_wakeup:s0
