@@ -18,6 +18,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     EuiccSupportPixelOverlay
 
+# Fold extensions
+PRODUCT_SYSTEM_SERVER_JARS += \
+    system_ext:comet-services
+
 # wireless_charger HAL service
 include device/google/gs-common/wireless_charger/wireless_charger.mk
 
