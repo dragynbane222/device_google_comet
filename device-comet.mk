@@ -438,7 +438,7 @@ PRODUCT_PRODUCT_PROPERTIES += \
 
 # LE Audio Offload Capabilities setting
 PRODUCT_COPY_FILES += \
-    device/google/caimito/bluetooth/le_audio_codec_capabilities.xml:$(TARGET_COPY_OUT_VENDOR)/etc/le_audio_codec_capabilities.xml
+    device/google/comet/bluetooth/le_audio_codec_capabilities.xml:$(TARGET_COPY_OUT_VENDOR)/etc/le_audio_codec_capabilities.xml
 
 # Disable LE Audio dual mic SWB call support
 # This may depend on the BT controller capability or the launch strategy
