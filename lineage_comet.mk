@@ -26,8 +26,8 @@ TARGET_SCREEN_HEIGHT := 2424
 TARGET_SCREEN_WIDTH := 1080
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildDesc="comet-user 15 AP3A.241005.015 12366759 release-keys" \
-    BuildFingerprint=google/comet/comet:15/AP3A.241005.015/12366759:user/release-keys \
+    BuildDesc="comet-user 15 AP3A.241105.008 12485168 release-keys" \
+    BuildFingerprint=google/comet/comet:15/AP3A.241105.008/12485168:user/release-keys \
     DeviceProduct=$(DEVICE_CODENAME)
 
 $(call inherit-product, $(VENDOR_PATH)/$(DEVICE_CODENAME)-vendor.mk)
