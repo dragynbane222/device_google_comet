@@ -4,6 +4,26 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+# Lunch banner maintainer variable
+RISING_MAINTAINER="c_smith"
+
+# Chipset/Maintainer properties (ro.rising.chipset/ro.rising.maintainer) 
+# (Optional if builder is setting properties via init_<device>.cpp)
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    RisingChipset="Google Tensor 4" \
+    RisingMaintainer="c_smith"
+
+RISING_PACKAGE_TYPE := "PIXEL"
+
+# disable/enable blur support, default is false
+TARGET_ENABLE_BLUR := true
+PRODUCT_NO_CAMERA := true
+
+WITH_GMS := true
+TARGET_CORE_GMS := true
+TARGET_CORE_GMS_EXTRAS := true
+TARGET_DEFAULT_PIXEL_LAUNCHER := true
+
 # Inherit some common stuff
 TARGET_DISABLE_EPPE := true
 $(call inherit-product, vendor/lineage/config/common_full_foldable_book_telephony.mk)
