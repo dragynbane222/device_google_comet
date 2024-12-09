@@ -13,7 +13,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     RisingChipset="Google Tensor 4" \
     RisingMaintainer="c_smith"
 
-RISING_PACKAGE_TYPE := "PIXEL"
+RISING_PACKAGE_TYPE := PIXEL
 
 # disable/enable blur support, default is false
 TARGET_ENABLE_BLUR := true
