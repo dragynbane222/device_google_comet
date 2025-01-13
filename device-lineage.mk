@@ -22,6 +22,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_SYSTEM_SERVER_JARS += \
     system_ext:comet-services
 
+# IWLAN
+PRODUCT_PACKAGES += \
+    Iwlan
+
 # Satellite
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/conf/allowlist_satellite.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/allowlist_satellite.xml
