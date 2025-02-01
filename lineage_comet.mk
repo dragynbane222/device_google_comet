@@ -8,6 +8,27 @@
 TARGET_DISABLE_EPPE := true
 $(call inherit-product, vendor/lineage/config/common_full_foldable_book_telephony.mk)
 
+# Whether you are compiling being an OFFICIAL Maintainer:
+INFINITY_BUILD_TYPE := UNOFFICIAL
+
+# Maintainer Name
+INFINITY_MAINTAINER := "c_smith"
+
+# Whether the package includes System BLURS
+TARGET_SUPPORTS_BLUR := true/
+
+# Whether the compiled package ships Widely Used Minimal Google Apps:
+WITH_GAPPS := true
+
+# Whether the compiled package ships Complete present Google Apps:
+TARGET_SHIPS_FULL_GAPPS := true
+
+# Whether the compiled shipped gapps package uses Google Dialer, Messaging, Contacts:
+TARGET_BUILD_GOOGLE_TELEPHONY := true
+
+# Whether the compiled package ships Moto Calculator irrespective VANILLA or GAPPS:
+USE_MOTO_CALCULATOR := false
+
 # Inherit device configuration
 DEVICE_CODENAME := comet
 DEVICE_PATH := device/google/comet
